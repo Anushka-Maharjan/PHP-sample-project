@@ -3,7 +3,7 @@
 
 </head>
 <body>
-<form method="post" action="database.php">
+<form method="post" action="insert.php">
     <label for="person-name">Name:</label>
     <input type = "text" name="name" id="person-name"><br>
     <label>Address:</label>
