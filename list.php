@@ -25,7 +25,8 @@ if(!$conn){
         echo "<tr>
                 <td>".$each['Name']."</td>
                 <td>".$each['Address']."</td>
-                <td><a href='edit.php?id=".$each['id']."'>Edit</a></td> 
+                <td><img src='image/".$each['image']."' style='width: 100px'></td>
+                <td><a href='edit.php?id=".$each['id']."'> Edit</a></td>
                 <td><a href='delete.php?id=".$each['id']."'> Delete</a></td>
               </tr>";
     }
