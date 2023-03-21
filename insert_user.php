@@ -11,7 +11,7 @@ if(!$conn){
 }else{
     echo"Success";
     $query="insert into users(name,email,password) 
-values('".$_POST['name']."','".$_POST['email']."','".password_hash($_POST['email'],PASSWORD_DEFAULT)."')";
+values('".$_POST['name']."','".$_POST['email']."','".password_hash($_POST['password'],PASSWORD_DEFAULT)."')";
     if ($conn->query($query)==true) {
         echo "user registered";
     }else{
