@@ -1,5 +1,5 @@
 <?php
-$host='192.168.100.7';
+$host='localhost';
 $username="root";
 $password="";
 $database="dss";
@@ -19,4 +19,3 @@ values('".$_POST['name']."','".$_POST['email']."','".password_hash($_POST['passw
     }
 
 }
-header('Location: list.php');
