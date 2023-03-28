@@ -10,10 +10,10 @@ $mail = new PHPMailer(true);
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'amaharjan.logispark@gmail.com';
+    $mail->Username   = 'your email';
     //get password from gmail, follow https://www.getmailbird.com/gmail-app-password/ to generate your app password
     //2 factor authentication should be activated to generate app password
-    $mail->Password   = 'ldsktdyksfnintws';
+    $mail->Password   = 'app password';
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
