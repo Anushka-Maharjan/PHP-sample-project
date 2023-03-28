@@ -22,8 +22,7 @@ $mail = new PHPMailer(true);
 
     $mail->isHTML(true);
     $mail->Subject = 'Subject';
-    $mail->Body    = 'HTML message body in <b>bold</b> ';
-    $mail->AltBody = 'Body in plain text for non-HTML mail clients';
+    $mail->Body    = 'This is message body';
     if($mail->send()){
         echo 'mail sent';
     }
